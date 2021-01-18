@@ -1,4 +1,4 @@
-﻿Log file open, 01/13/21 13:42:17
+﻿Log file open, 01/18/21 20:06:15
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: GrandTrenchWar
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 47 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.760846
+LogStats: Stats thread started at 0.752226
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -162,372 +162,561 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
-[2021.01.13-04.42.19:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.01.13-04.42.19:221][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.01.13-04.42.19:222][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
-[2021.01.13-04.42.19:222][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
-[2021.01.13-04.42.19:225][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.13-04.42.19:225][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:225][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.13-04.42.19:226][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.13-04.42.19:226][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.13-04.42.19:226][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.01.13-04.42.19:231][  0]LogHAL: Display: Platform has ~ 16 GB [17125761024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2021.01.13-04.42.19:231][  0]LogInit: Going up to parent DeviceProfile []
-[2021.01.13-04.42.19:231][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.01.13-04.42.19:231][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.01.13-04.42.19:232][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
-[2021.01.13-04.42.19:232][  0]LogInit: Computer: DESKTOP-G9JE5KH
-[2021.01.13-04.42.19:232][  0]LogInit: User: USER
-[2021.01.13-04.42.19:232][  0]LogInit: CPU Page size=4096, Cores=8
-[2021.01.13-04.42.19:232][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.01.13-04.42.19:233][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.01.13-04.42.19:233][  0]LogMemory: Platform Memory Stats for Windows
-[2021.01.13-04.42.19:233][  0]LogMemory: Process Physical Memory: 137.25 MB used, 137.25 MB peak
-[2021.01.13-04.42.19:233][  0]LogMemory: Process Virtual Memory: 109.40 MB used, 109.40 MB peak
-[2021.01.13-04.42.19:233][  0]LogMemory: Physical Memory: 6494.80 MB used,  9837.59 MB free, 16332.40 MB total
-[2021.01.13-04.42.19:233][  0]LogMemory: Virtual Memory: 4830.45 MB used,  134212896.00 MB free, 134217728.00 MB total
-[2021.01.13-04.42.19:300][  0]LogInit: Using OS detected language (ko-KR).
-[2021.01.13-04.42.19:300][  0]LogInit: Using OS detected locale (ko-KR).
-[2021.01.13-04.42.19:301][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
-[2021.01.13-04.42.19:426][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.01.13-04.42.19:426][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.01.13-04.42.19:439][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.13-04.42.19:439][  0]LogD3D11RHI: D3D11 adapters:
-[2021.01.13-04.42.19:538][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
-[2021.01.13-04.42.19:538][  0]LogD3D11RHI:       8031/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2021.01.13-04.42.19:542][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.01.13-04.42.19:542][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.01.13-04.42.19:542][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.01.13-04.42.19:551][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.01.13-04.42.19:551][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
-[2021.01.13-04.42.19:552][  0]LogWindows: EnumDisplayDevices:
-[2021.01.13-04.42.19:552][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
-[2021.01.13-04.42.19:552][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
-[2021.01.13-04.42.19:553][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2021.01.13-04.42.19:553][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
-[2021.01.13-04.42.19:553][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.01.13-04.42.19:553][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
-[2021.01.13-04.42.19:553][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
-[2021.01.13-04.42.19:553][  0]LogD3D11RHI:      Driver Date: 11-6-2020
-[2021.01.13-04.42.19:553][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2021.01.13-04.42.19:643][  0]LogD3D11RHI: Async texture creation enabled
-[2021.01.13-04.42.19:667][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2021.01.13-04.42.19:667][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2021.01.13-04.42.19:667][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2021.01.13-04.42.19:675][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.01.13-04.42.20:036][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2021.01.13-04.42.20:052][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2021.01.13-04.42.20:067][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2021.01.13-04.42.20:075][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2021.01.13-04.42.20:075][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.01.13-04.42.20:086][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.01.13-04.42.20:144][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (E:/Unreal_GrandTrenchWar/GrandTrenchWar/Intermediate/Shaders/WorkingDirectory/14384/).
-[2021.01.13-04.42.20:145][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USER/AppData/Local/Temp/UnrealShaderWorkingDir/C05BC54D4176E9C76BB31EAA59041E59/'.
-[2021.01.13-04.42.20:147][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.01.13-04.42.20:147][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.01.13-04.42.20:147][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.01.13-04.42.20:672][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.01.13-04.42.20:714][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/USER/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2021.01.13-04.42.20:714][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/USER/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2021.01.13-04.42.20:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal_GrandTrenchWar/GrandTrenchWar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.01.13-04.42.20:714][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.01.13-04.42.20:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal_GrandTrenchWar/GrandTrenchWar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.13-04.42.20:714][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.01.13-04.42.20:726][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.01.13-04.42.20:727][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.01.13-04.42.20:727][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.01.13-04.42.20:739][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.01.13-04.42.20:739][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.01.13-04.42.20:739][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.01.13-04.42.20:760][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2021.01.13-04.42.20:761][  0]LogSlate: Using FreeType 2.6.0
-[2021.01.13-04.42.20:762][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.01.13-04.42.20:890][  0]LogInit: Using OS detected language (ko-KR).
-[2021.01.13-04.42.20:890][  0]LogInit: Using OS detected locale (ko-KR).
-[2021.01.13-04.42.20:890][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
-[2021.01.13-04.42.20:890][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
-[2021.01.13-04.42.20:890][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2021.01.13-04.42.20:890][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2021.01.13-04.42.20:891][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2021.01.13-04.42.20:898][  0]LogAssetRegistry: FAssetRegistry took 0.0042 seconds to start up
-[2021.01.13-04.42.21:090][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000647 seconds
-[2021.01.13-04.42.21:220][  0]LogInit: Selected Device Profile: [Windows]
-[2021.01.13-04.42.21:343][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.01.13-04.42.21:343][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.01.13-04.42.21:343][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.01.13-04.42.21:343][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.01.13-04.42.21:343][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.01.13-04.42.21:352][  0]LogNetVersion: GrandTrenchWar 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4025105772)
-[2021.01.13-04.42.21:884][  0]LogMoviePlayer: Initializing movie player
-[2021.01.13-04.42.22:004][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.01.13-04.42.22:017][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.01.13-04.42.22:108][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2021.01.13-04.42.22:108][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2021.01.13-04.42.22:109][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
-[2021.01.13-04.42.22:166][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.01.13-04.42.22:308][  0]LogOcInput: OculusInput pre-init called
-[2021.01.13-04.42.22:319][  0]LogUObjectArray: 46468 objects as part of root set at end of initial load.
-[2021.01.13-04.42.22:319][  0]LogUObjectAllocator: 8170472 out of 0 bytes used by permanent object pool.
-[2021.01.13-04.42.22:319][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.01.13-04.42.22:453][  0]LogEngine: Initializing Engine...
-[2021.01.13-04.42.22:453][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.01.13-04.42.22:466][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.01.13-04.42.22:615][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.01.13-04.42.22:657][  0]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2021.01.13-04.42.22:683][  0]LogInit: FAudioDevice initialized.
-[2021.01.13-04.42.22:695][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.01.13-04.42.22:701][  0]LogInit: Texture streaming: Enabled
-[2021.01.13-04.42.22:959][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.01.13-04.42.22:960][  0]LogInit: Display: Game Engine Initialized.
-[2021.01.13-04.42.23:012][  0]LogInit: Display: Starting Game.
-[2021.01.13-04.42.23:013][  0]LogNet: Browse: /Game/Weapon/Map/BP?Name=Player
-[2021.01.13-04.42.23:013][  0]LogLoad: LoadMap: /Game/Weapon/Map/BP?Name=Player
-[2021.01.13-04.42.23:050][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
-[2021.01.13-04.42.23:813][  0]LogAIModule: Creating AISystem for world BP
-[2021.01.13-04.42.23:814][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2021.01.13-04.42.23:854][  0]LogWorld: Bringing World /Game/Weapon/Map/BP.BP up for play (max tick rate 0) at 2021.01.13-13.42.23
-[2021.01.13-04.42.23:862][  0]LogWorld: Bringing up level for play took: 0.047207
-[2021.01.13-04.42.23:881][  0]LogLoad: Took 0.867352 seconds to LoadMap(/Game/Weapon/Map/BP)
-[2021.01.13-04.42.23:936][  0]LogLoad: (Engine Initialization) Total time: 9.06 seconds
-[2021.01.13-04.42.23:936][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.01.13-04.42.23:945][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2021.01.13-04.42.24:045][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.01.13-04.42.24:143][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
-[2021.01.13-04.42.24:174][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
-[2021.01.13-04.44.16:443][955]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.17:150][999]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.17:651][ 30]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.17:877][ 44]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W338.StaticMeshComponent0 W3
-[2021.01.13-04.44.18:038][ 54]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W331.StaticMeshComponent0 W3
-[2021.01.13-04.44.18:200][ 64]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W322.StaticMeshComponent0 W3
-[2021.01.13-04.44.19:474][143]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W649.StaticMeshComponent0 W4
-[2021.01.13-04.44.19:619][152]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.19:780][162]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B49.StaticMeshComponent0 B1
-[2021.01.13-04.44.19:925][171]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B49.StaticMeshComponent0 B1
-[2021.01.13-04.44.20:086][181]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B49.StaticMeshComponent0 B1
-[2021.01.13-04.44.20:263][192]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.20:425][202]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.20:587][212]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.20:764][223]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.20:941][234]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.21:119][245]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.21:280][255]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.21:474][267]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.21:667][279]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.21:828][289]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B54.StaticMeshComponent0 B1
-[2021.01.13-04.44.22:007][300]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B54.StaticMeshComponent0 B1
-[2021.01.13-04.44.22:200][312]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.22:796][349]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B54.StaticMeshComponent0 B1
-[2021.01.13-04.44.22:941][358]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B54.StaticMeshComponent0 B1
-[2021.01.13-04.44.23:425][388]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B54.StaticMeshComponent0 B1
-[2021.01.13-04.44.23:603][399]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] B54.StaticMeshComponent0 B1
-[2021.01.13-04.44.23:781][410]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.23:941][420]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.24:119][431]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W306.StaticMeshComponent0 W6
-[2021.01.13-04.44.24:280][441]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W653.StaticMeshComponent0 W3
-[2021.01.13-04.44.24:473][453]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.24:651][464]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.24:796][473]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.25:183][497]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.25:344][507]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.26:279][564]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.26:457][575]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.26:618][585]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.27:993][670]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.30:526][827]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.32:267][935]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.34:719][ 87]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.41:267][493]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
-[2021.01.13-04.44.48:896][966]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
+[2021.01.18-11.06.16:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.01.18-11.06.16:189][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.01.18-11.06.16:190][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
+[2021.01.18-11.06.16:190][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
+[2021.01.18-11.06.16:193][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.18-11.06.16:193][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.18-11.06.16:194][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.18-11.06.16:194][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.18-11.06.16:194][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.01.18-11.06.16:199][  0]LogHAL: Display: Platform has ~ 16 GB [17125761024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2021.01.18-11.06.16:199][  0]LogInit: Going up to parent DeviceProfile []
+[2021.01.18-11.06.16:199][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.01.18-11.06.16:199][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Scalability.ini]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.01.18-11.06.16:200][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/Unreal_GrandTrenchWar/GrandTrenchWar/Saved/Config/Windows/Engine.ini]
+[2021.01.18-11.06.16:200][  0]LogInit: Computer: DESKTOP-G9JE5KH
+[2021.01.18-11.06.16:200][  0]LogInit: User: USER
+[2021.01.18-11.06.16:200][  0]LogInit: CPU Page size=4096, Cores=8
+[2021.01.18-11.06.16:200][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.01.18-11.06.16:201][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.01.18-11.06.16:201][  0]LogMemory: Platform Memory Stats for Windows
+[2021.01.18-11.06.16:201][  0]LogMemory: Process Physical Memory: 137.39 MB used, 137.40 MB peak
+[2021.01.18-11.06.16:201][  0]LogMemory: Process Virtual Memory: 109.65 MB used, 109.65 MB peak
+[2021.01.18-11.06.16:201][  0]LogMemory: Physical Memory: 7611.57 MB used,  8720.82 MB free, 16332.40 MB total
+[2021.01.18-11.06.16:201][  0]LogMemory: Virtual Memory: 4830.51 MB used,  134212896.00 MB free, 134217728.00 MB total
+[2021.01.18-11.06.16:271][  0]LogInit: Using OS detected language (ko-KR).
+[2021.01.18-11.06.16:271][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.01.18-11.06.16:271][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2021.01.18-11.06.16:408][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.01.18-11.06.16:408][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.01.18-11.06.16:421][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.18-11.06.16:421][  0]LogD3D11RHI: D3D11 adapters:
+[2021.01.18-11.06.16:524][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070' (Feature Level 11_0)
+[2021.01.18-11.06.16:524][  0]LogD3D11RHI:       8031/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2021.01.18-11.06.16:528][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.01.18-11.06.16:528][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.01.18-11.06.16:528][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.01.18-11.06.16:536][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.01.18-11.06.16:536][  0]LogD3D11RHI:     GPU DeviceId: 0x1f07 (for the marketing name, search the web for "GPU Device Id")
+[2021.01.18-11.06.16:536][  0]LogWindows: EnumDisplayDevices:
+[2021.01.18-11.06.16:537][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070' (P:1 D:1)
+[2021.01.18-11.06.16:537][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070' (P:0 D:1)
+[2021.01.18-11.06.16:537][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.01.18-11.06.16:538][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070' (P:0 D:0)
+[2021.01.18-11.06.16:538][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.01.18-11.06.16:538][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070
+[2021.01.18-11.06.16:538][  0]LogD3D11RHI:   Driver Version: 457.30 (internal:27.21.14.5730, unified:457.30)
+[2021.01.18-11.06.16:538][  0]LogD3D11RHI:      Driver Date: 11-6-2020
+[2021.01.18-11.06.16:538][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2021.01.18-11.06.16:621][  0]LogD3D11RHI: Async texture creation enabled
+[2021.01.18-11.06.16:640][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2021.01.18-11.06.16:640][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2021.01.18-11.06.16:640][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2021.01.18-11.06.16:648][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.01.18-11.06.17:010][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2021.01.18-11.06.17:028][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2021.01.18-11.06.17:043][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2021.01.18-11.06.17:052][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2021.01.18-11.06.17:052][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.01.18-11.06.17:062][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.01.18-11.06.17:120][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (E:/Unreal_GrandTrenchWar/GrandTrenchWar/Intermediate/Shaders/WorkingDirectory/7676/).
+[2021.01.18-11.06.17:120][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/USER/AppData/Local/Temp/UnrealShaderWorkingDir/9BE93CD549FFF9CA7E784092D41096E8/'.
+[2021.01.18-11.06.17:123][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.01.18-11.06.17:123][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.01.18-11.06.17:123][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.01.18-11.06.17:656][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.01.18-11.06.17:699][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/USER/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2021.01.18-11.06.17:699][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/USER/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2021.01.18-11.06.17:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Unreal_GrandTrenchWar/GrandTrenchWar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.01.18-11.06.17:699][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.01.18-11.06.17:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Unreal_GrandTrenchWar/GrandTrenchWar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.18-11.06.17:699][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.01.18-11.06.17:712][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.01.18-11.06.17:712][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.01.18-11.06.17:712][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.01.18-11.06.17:725][  0]LogDerivedDataCache: Using Local data cache path C:/Users/USER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.01.18-11.06.17:725][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.01.18-11.06.17:725][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.01.18-11.06.17:747][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2021.01.18-11.06.17:748][  0]LogSlate: Using FreeType 2.6.0
+[2021.01.18-11.06.17:749][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.01.18-11.06.17:876][  0]LogInit: Using OS detected language (ko-KR).
+[2021.01.18-11.06.17:876][  0]LogInit: Using OS detected locale (ko-KR).
+[2021.01.18-11.06.17:876][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2021.01.18-11.06.17:876][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2021.01.18-11.06.17:876][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.01.18-11.06.17:876][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2021.01.18-11.06.17:876][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2021.01.18-11.06.17:885][  0]LogAssetRegistry: FAssetRegistry took 0.0050 seconds to start up
+[2021.01.18-11.06.18:092][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000633 seconds
+[2021.01.18-11.06.18:236][  0]LogInit: Selected Device Profile: [Windows]
+[2021.01.18-11.06.18:367][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.01.18-11.06.18:367][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.01.18-11.06.18:367][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.01.18-11.06.18:367][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.01.18-11.06.18:367][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.01.18-11.06.18:379][  0]LogNetVersion: GrandTrenchWar 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 4025105772)
+[2021.01.18-11.06.18:890][  0]LogMoviePlayer: Initializing movie player
+[2021.01.18-11.06.19:012][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.01.18-11.06.19:025][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.01.18-11.06.19:112][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2021.01.18-11.06.19:112][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2021.01.18-11.06.19:113][  0]SourceControl: 소스 컨트롤이 꺼져 있습니다.
+[2021.01.18-11.06.19:167][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.01.18-11.06.19:304][  0]LogOcInput: OculusInput pre-init called
+[2021.01.18-11.06.19:315][  0]LogUObjectArray: 46468 objects as part of root set at end of initial load.
+[2021.01.18-11.06.19:315][  0]LogUObjectAllocator: 8170472 out of 0 bytes used by permanent object pool.
+[2021.01.18-11.06.19:315][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.01.18-11.06.19:450][  0]LogEngine: Initializing Engine...
+[2021.01.18-11.06.19:451][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.01.18-11.06.19:463][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.01.18-11.06.19:611][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.01.18-11.06.19:653][  0]LogInit: XAudio2 using '스피커(Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2021.01.18-11.06.19:677][  0]LogInit: FAudioDevice initialized.
+[2021.01.18-11.06.19:689][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.01.18-11.06.19:694][  0]LogInit: Texture streaming: Enabled
+[2021.01.18-11.06.19:960][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-11.06.19:960][  0]LogInit: Display: Game Engine Initialized.
+[2021.01.18-11.06.20:019][  0]LogInit: Display: Starting Game.
+[2021.01.18-11.06.20:019][  0]LogNet: Browse: /Game/Weapon/Map/BP?Name=Player
+[2021.01.18-11.06.20:019][  0]LogLoad: LoadMap: /Game/Weapon/Map/BP?Name=Player
+[2021.01.18-11.06.20:056][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2021.01.18-11.06.20:986][  0]LogAIModule: Creating AISystem for world BP
+[2021.01.18-11.06.20:986][  0]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2021.01.18-11.06.21:054][  0]LogWorld: Bringing World /Game/Weapon/Map/BP.BP up for play (max tick rate 0) at 2021.01.18-20.06.21
+[2021.01.18-11.06.21:057][  0]LogWorld: Bringing up level for play took: 0.070732
+[2021.01.18-11.06.21:066][  0]LogLoad: Took 1.046835 seconds to LoadMap(/Game/Weapon/Map/BP)
+[2021.01.18-11.06.21:138][  0]LogLoad: (Engine Initialization) Total time: 7.85 seconds
+[2021.01.18-11.06.21:138][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.01.18-11.06.21:156][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2021.01.18-11.06.21:279][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.01.18-11.06.21:399][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2021.01.18-11.06.21:433][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2021.01.18-11.06.21:515][  1]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] R20.StaticMeshComponent0 R7
+[2021.01.18-11.06.26:125][283]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
+[2021.01.18-11.06.42:157][277]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W1397_667.StaticMeshComponent0 W6
+[2021.01.18-11.06.42:480][297]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W1401_680.StaticMeshComponent0 W1
+[2021.01.18-11.06.48:899][695]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W1403.StaticMeshComponent0 W3
+[2021.01.18-11.06.49:189][713]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W1394_664.StaticMeshComponent0 W3
+[2021.01.18-11.07.01:835][497]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W1455.StaticMeshComponent0 W1
+[2021.01.18-11.07.02:093][513]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W1446.StaticMeshComponent0 W1
+[2021.01.18-11.07.08:239][894]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] W336.StaticMeshComponent0 W1
+[2021.01.18-11.07.37:963][736]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
+[2021.01.18-11.07.38:447][766]LogBlueprintUserMessages: [RayFirstPersonCharacter_C_0] BattleField_2.StaticMeshComponent0 BattleField
+[2021.01.18-11.07.59:286][ 58]LogWindowsDesktop: Alt-F4 pressed!
+[2021.01.18-11.07.59:316][ 58]LogSlate: Window 'GrandTrenchWar (64 비트, PCD3D_SM5) ' being destroyed
+[2021.01.18-11.07.59:318][ 58]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2021.01.18-11.07.59:323][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-11.07.59:323][ 58]LogEngine: All Windows Closed
+[2021.01.18-11.07.59:323][ 58]LogWindows: FPlatformMisc::RequestExit(0)
+[2021.01.18-11.07.59:504][ 59]LogExit: Preparing to exit.
+[2021.01.18-11.07.59:504][ 59]LogMoviePlayer: Shutting down movie player
+[2021.01.18-11.08.00:091][ 59]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.01.18-11.08.00:107][ 59]LogExit: Game engine shut down
+[2021.01.18-11.08.00:181][ 59]LogExit: Object subsystem successfully closed.
+[2021.01.18-11.08.00:206][ 59]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.01.18-11.08.00:209][ 59]LogD3D11RHI: Shutdown
+[2021.01.18-11.08.00:209][ 59]LogD3D11RHI: CleanupD3DDevice
+[2021.01.18-11.08.00:210][ 59]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2021.01.18-11.08.00:210][ 59]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2021.01.18-11.08.00:210][ 59]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2021.01.18-11.08.00:210][ 59]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2021.01.18-11.08.00:210][ 59]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2021.01.18-11.08.00:210][ 59]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2021.01.18-11.08.00:290][ 59]LogD3D11RHI: ~FD3D11DynamicRHI
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (400)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module SequenceRecorder (398)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module AutomationController (396)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module AutomationWorker (394)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module Voice (392)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module AIModule (390)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module GameplayDebugger (389)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module AITestSuite (387)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module NavigationSystem (385)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module OculusMR (382)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (380)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (378)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module WebMMedia (376)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (374)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (372)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (370)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (368)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (366)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (364)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module CharacterAI (362)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module SessionServices (360)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (358)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module LiveCoding (356)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module LevelSequence (354)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2021.01.18-11.08.00:300][ 59]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (340)
+[2021.01.18-11.08.00:303][ 59]LogModuleManager: Shutting down and abandoning module ProfilerService (338)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module TaskGraph (336)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module SteamVRController (334)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (332)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module OculusInput (330)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (328)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module EditableMesh (326)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (324)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module CableComponent (322)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module AudioCapture (320)
+[2021.01.18-11.08.00:433][ 59]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (318)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module AndroidPermission (316)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (312)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (310)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module MediaCompositing (308)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module LinearTimecode (306)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module ImgMedia (304)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (302)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (300)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (298)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module HTML5Networking (296)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (294)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (293)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module GeometryCache (290)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (289)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module BackChannel (286)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module AppleVision (284)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (282)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module AppleImageUtils (280)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module VariantManagerContent (278)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (276)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module CryptoKeys (274)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (272)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module HotReload (271)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (270)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (266)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module UObjectPlugin (264)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (262)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (260)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module SourceControl (259)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (256)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (254)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module SignificanceManager (252)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (250)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module ActorSequence (242)
+[2021.01.18-11.08.00:434][ 59]LogModuleManager: Shutting down and abandoning module UdpMessaging (240)
+[2021.01.18-11.08.00:535][ 59]LogModuleManager: Shutting down and abandoning module TcpMessaging (238)
+[2021.01.18-11.08.01:066][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (236)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (234)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (232)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (230)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapController (228)
+[2021.01.18-11.08.01:067][ 59]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module MagicLeapAR (226)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module AugmentedReality (225)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (222)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module FacialAnimation (220)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module DataValidation (218)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (216)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module TreeMap (215)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module AnimationSharing (212)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module AISupportModule (208)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module Paper2D (206)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (202)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module PacketHandler (200)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (198)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (196)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module Overlay (192)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module OverlayEditor (191)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module VREditor (188)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module StringTableEditor (186)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (184)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (182)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module FunctionalTesting (180)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (178)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (177)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module UMG (174)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module UMGEditor (173)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module Sequencer (172)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module MessageLog (169)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module SlateReflector (164)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module Slate (162)
+[2021.01.18-11.08.01:067][ 59]LogModuleManager: Shutting down and abandoning module EditorStyle (160)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module UnrealEd (158)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module MRMesh (156)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module Messaging (154)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (152)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (150)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module XAudio2 (148)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module Networking (146)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module Core (144)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module KismetCompiler (142)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module MeshUtilities (140)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (139)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (138)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (137)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (135)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (133)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module MaterialBaking (129)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (124)
+[2021.01.18-11.08.01:069][ 59]LogModuleManager: Shutting down and abandoning module DerivedDataCache (122)
+[2021.01.18-11.08.01:303][ 59]LogDerivedDataCache: Shutdown
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module XGEController (120)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (115)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (113)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (111)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (109)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (107)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (105)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (103)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (101)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (99)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (95)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (93)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (91)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (89)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module InputCore (78)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module Settings (76)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2021.01.18-11.08.01:303][ 59]LogHMD: Freeing OpenVRDLLHandle.
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2021.01.18-11.08.01:303][ 59]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2021.01.18-11.08.01:303][ 59]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.01.18-11.08.01:304][ 59]LogOnline: STEAM: AUTH: Revoking all tickets.
+[2021.01.18-11.08.01:385][ 59]LogOnline: Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2021.01.18-11.08.01:385][ 59]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2021.01.18-11.08.01:385][ 59]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2021.01.18-11.08.01:406][ 59]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2021.01.18-11.08.01:419][ 59]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2021.01.18-11.08.01:420][ 59]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2021.01.18-11.08.01:422][ 59]LogModuleManager: Shutting down and abandoning module Media (45)
+[2021.01.18-11.08.01:428][ 59]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2021.01.18-11.08.01:428][ 59]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.01.18-11.08.01:429][ 59]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.01.18-11.08.01:439][ 59]LogExit: Exiting.
+[2021.01.18-11.08.01:474][ 59]Log file closed, 01/18/21 20:08:01
